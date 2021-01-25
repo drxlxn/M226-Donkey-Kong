@@ -1,19 +1,31 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Kong here.
+ * Enemy of Player, spawns barrels.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Drilon Kransiqi KRA
+ * @version 1.01
  */
 public class Kong extends Actor
 {
     /**
-     * Act - do whatever the Kong wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
+     * @author KRA
+     * Execudes methods bellow.
      */
     public void act() 
     {
-        // Add your action code here.
-    }    
+        spawnBarrel();
+    }
+       
+   /**
+     * @author KRA
+     * Spawns a barrels in a random pace.
+     */
+    public void spawnBarrel()
+    {
+        if (Greenfoot.getRandomNumber(100) < 1)
+        {
+            getWorld().addObject(new Barrel(), getX()-100, getY());
+        }
+    }
 }

@@ -27,60 +27,56 @@ public class MyWorld extends World
     private void prepare()
     {
 
-        Kong kong = new Kong();
-        addObject(kong,40,36);
-        ladder ladder = new ladder();
-        addObject(ladder,540,369);
-        Floor floor = new Floor();
-        addObject(floor,414,333);
-        Floor floor2 = new Floor();
-        addObject(floor2,187,333);
-        ladder ladder2 = new ladder();
-        addObject(ladder2,105,299);
-        ladder.setLocation(543,351);
-        Floor floor3 = new Floor();
-        addObject(floor3,187,265);
-        Floor floor4 = new Floor();
-        addObject(floor4,413,265);
-        ladder ladder3 = new ladder();
-        addObject(ladder3,514,232);
-        ladder3.setLocation(464,233);
-        Floor floor5 = new Floor();
-        addObject(floor5,414,198);
-        Floor floor6 = new Floor();
-        addObject(floor6,132,198);
-        floor6.setLocation(153,198);
-        floor6.setLocation(171,198);
-        floor6.setLocation(140,199);
-        ladder ladder4 = new ladder();
-        addObject(ladder4,133,166);
-        Floor floor7 = new Floor();
-        addObject(floor7,185,133);
-        Floor floor8 = new Floor();
-        addObject(floor8,412,131);
-        floor8.setLocation(422,133);
-        ladder ladder5 = new ladder();
-        addObject(ladder5,462,101);
-        Floor floor9 = new Floor();
-        addObject(floor9,415,66);
-        Floor floor10 = new Floor();
-        addObject(floor10,184,65);
-        floor10.setLocation(182,65);
-        floor10.setLocation(143,66);
-        kong.setLocation(38,56);
-        kong.setLocation(38,40);
+        Floor Floor = new Floor();
+        addObject(Floor,434,97);
+
+        Floor Floor2 = new Floor();
+        addObject(Floor2,246,97);
+
+        Floor Floor3 = new Floor();
+        addObject(Floor3,183,174);
+
+        Floor Floor4 = new Floor();
+        addObject(Floor4,350,174);
+
+        Floor Floor5 = new Floor();
+        addObject(Floor5,246,250);
+
+        Floor Floor6= new Floor();
+        addObject(Floor6,434,250);
+
+        Floor Floor7 = new Floor();
+        addObject(Floor7,183,325);
+
+        Floor Floor8 = new Floor();
+        addObject(Floor8,350,325);
+
         Player player = new Player();
-        addObject(player,37,369);
-        ladder.setLocation(548,387);
-        ladder.setLocation(504,366);
-        kong.setLocation(61,17);
-        kong.setLocation(111,19);
-        removeObject(kong);
-        addObject(kong,42,32);
-        player.setLocation(52,357);
-        player.setLocation(43,365);
-        player.setLocation(28,371);
-        floor5.setLocation(364,198);
-        floor5.setLocation(441,199);
+        addObject(player,41,363);
+
+        ladder ladder = new ladder();
+        addObject(ladder,458,364);
+
+        ladder ladder2 = new ladder();
+        addObject(ladder2,98,289);
+
+        ladder ladder3 = new ladder();
+        addObject(ladder3,476,213);
+
+        ladder ladder4 = new ladder();
+        addObject(ladder4,131,136);
+        
+        Kong kong = new Kong();
+        addObject(kong,548,51);
     }
-}
+    
+    /*public void win()
+    {
+        Player Player = getObjects(Player.class);
+        if (Player.getX() == 7)
+        {
+            showText("YOU WIN", 750, 600);
+            
+            }
+    }*/
+} 

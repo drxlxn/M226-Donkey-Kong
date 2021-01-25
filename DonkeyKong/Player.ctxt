@@ -1,10 +1,19 @@
 #BlueJ class context
 comment0.target=Player
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Player\ here.\r\n\ \r\n\ @author\ Drilon\ Krasniqi\r\n\ @version\ 0.1\r\n
+comment0.text=\r\n\ Player\ moves\ and\ tries\ to\ reach\ the\ end.\ Can\ die\ from\ barrels.\r\n\ \r\n\ @author\ Drilon\ Krasniqi\ KRA\r\n\ @version\ 1.1\r\n
 comment1.params=
 comment1.target=void\ act()
-comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Player\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment1.text=\r\n\ @author\ KRA\r\n\ Execudes\ methods\ bellow.\r\n
 comment2.params=
 comment2.target=void\ motion()
-comment2.text=\r\n\ This\ method\ let's\ the\ player\ move.\r\n
-numComments=3
+comment2.text=\r\n\ @author\ KRA\r\n\ This\ method\ let's\ the\ player\ move.\r\n
+comment3.params=
+comment3.target=void\ touchBarrel()
+comment3.text=\r\n\ @author\ KRA\r\n\ Method\ touchBarrel\ checks\ if\ the\ Player\ has\ been\ hit\ by\ a\ barrel\ or\ not.\r\n
+comment4.params=
+comment4.target=void\ checkLife()
+comment4.text=\r\n\ @author\ KRA\r\n\ This\ method\ checks\ if\ the\ life\ count\ has\ reached\ zero.\r\n
+comment5.params=
+comment5.target=void\ moveUp()
+comment5.text=\r\n\ @author\ KRA\r\n\ moveUp\ is\ here\ to\ restrict\ the\ player\ from\ not\ going\ up\ the\ play\ field\ if\ not\ needed\ to.\r\n
+numComments=6
